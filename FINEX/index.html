@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Title -->
+    <title>FINEX</title>
+
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/plugins/simplebar.css" />
+    <link rel="stylesheet" href="css/plugins/font-awesome.css" />
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css" />
+    <link rel="stylesheet" href="css/plugins/map.css" />
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" class="theme-st" href="css/style-light.css" />
+
+    <link rel="stylesheet" class="box-st" href="css/settings/circle.css" />
+    <link rel="stylesheet" class="box-tl" href="css/settings/title.css" />
+    <link
+      rel="stylesheet"
+      class="style-cl"
+      href="css/settings/green-color.css"
+    />
+
+    <link rel="stylesheet" href="setting/style-demo.css" />
+  </head>
+
+  <body>
+    <!--Theme Options Start-->
+    <div class="style-options">
+      <div class="toggle-btn">
+        <span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28px"
+            height="28px"
+            viewBox="0 0 24 24"
+          >
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M18.6225,9.75 L18.75,9.75 C19.9926407,9.75 21,10.7573593 21,12 C21,13.2426407 19.9926407,14.25 18.75,14.25 L18.6854912,14.249994 C18.4911876,14.250769 18.3158978,14.366855 18.2393549,14.5454486 C18.1556809,14.7351461 18.1942911,14.948087 18.3278301,15.0846699 L18.372535,15.129375 C18.7950334,15.5514036 19.03243,16.1240792 19.03243,16.72125 C19.03243,17.3184208 18.7950334,17.8910964 18.373125,18.312535 C17.9510964,18.7350334 17.3784208,18.97243 16.78125,18.97243 C16.1840792,18.97243 15.6114036,18.7350334 15.1896699,18.3128301 L15.1505513,18.2736469 C15.008087,18.1342911 14.7951461,18.0956809 14.6054486,18.1793549 C14.426855,18.2558978 14.310769,18.4311876 14.31,18.6225 L14.31,18.75 C14.31,19.9926407 13.3026407,21 12.06,21 C10.8173593,21 9.81,19.9926407 9.81,18.75 C9.80552409,18.4999185 9.67898539,18.3229986 9.44717599,18.2361469 C9.26485393,18.1556809 9.05191298,18.1942911 8.91533009,18.3278301 L8.870625,18.372535 C8.44859642,18.7950334 7.87592081,19.03243 7.27875,19.03243 C6.68157919,19.03243 6.10890358,18.7950334 5.68746499,18.373125 C5.26496665,17.9510964 5.02757002,17.3784208 5.02757002,16.78125 C5.02757002,16.1840792 5.26496665,15.6114036 5.68716991,15.1896699 L5.72635306,15.1505513 C5.86570889,15.008087 5.90431906,14.7951461 5.82064513,14.6054486 C5.74410223,14.426855 5.56881236,14.310769 5.3775,14.31 L5.25,14.31 C4.00735931,14.31 3,13.3026407 3,12.06 C3,10.8173593 4.00735931,9.81 5.25,9.81 C5.50008154,9.80552409 5.67700139,9.67898539 5.76385306,9.44717599 C5.84431906,9.26485393 5.80570889,9.05191298 5.67216991,8.91533009 L5.62746499,8.870625 C5.20496665,8.44859642 4.96757002,7.87592081 4.96757002,7.27875 C4.96757002,6.68157919 5.20496665,6.10890358 5.626875,5.68746499 C6.04890358,5.26496665 6.62157919,5.02757002 7.21875,5.02757002 C7.81592081,5.02757002 8.38859642,5.26496665 8.81033009,5.68716991 L8.84944872,5.72635306 C8.99191298,5.86570889 9.20485393,5.90431906 9.38717599,5.82385306 L9.49484664,5.80114977 C9.65041313,5.71688974 9.7492905,5.55401473 9.75,5.3775 L9.75,5.25 C9.75,4.00735931 10.7573593,3 12,3 C13.2426407,3 14.25,4.00735931 14.25,5.25 L14.249994,5.31450877 C14.250769,5.50881236 14.366855,5.68410223 14.552824,5.76385306 C14.7351461,5.84431906 14.948087,5.80570889 15.0846699,5.67216991 L15.129375,5.62746499 C15.5514036,5.20496665 16.1240792,4.96757002 16.72125,4.96757002 C17.3184208,4.96757002 17.8910964,5.20496665 18.312535,5.626875 C18.7350334,6.04890358 18.97243,6.62157919 18.97243,7.21875 C18.97243,7.81592081 18.7350334,8.38859642 18.3128301,8.81033009 L18.2736469,8.84944872 C18.1342911,8.99191298 18.0956809,9.20485393 18.1761469,9.38717599 L18.1988502,9.49484664 C18.2831103,9.65041313 18.4459853,9.7492905 18.6225,9.75 Z"
+                fill="#000000"
+                fill-rule="nonzero"
+                opacity="0.3"
+              ></path>
+              <path
+                d="M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z"
+                fill="#000000"
+              ></path>
+            </g>
+          </svg>
+        </span>
+      </div>
+      <div class="style-menu">
+        <div class="theme-style">
+          <h4 class="mt-30 mb-10">Stil temă</h4>
+          <ul>
+            <li>
+              <a href="css/style-dark.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <rect x="0" y="0" width="24" height="24" />
+                    <path
+                      d="M12.0700837,4.0003006 C11.3895108,5.17692613 11,6.54297551 11,8 C11,12.3948932 14.5439081,15.9620623 18.9299163,15.9996994 C17.5467214,18.3910707 14.9612535,20 12,20 C7.581722,20 4,16.418278 4,12 C4,7.581722 7.581722,4 12,4 C12.0233848,4 12.0467462,4.00010034 12.0700837,4.0003006 Z"
+                      fill="#000000"
+                    />
+                  </g>
+                </svg>
+                Negru</a
+              >
+            </li>
+            <li>
+              <a href="css/style-light.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <rect x="0" y="0" width="24" height="24" />
+                    <circle fill="#000000" opacity="0.3" cx="12" cy="9" r="8" />
+                    <path
+                      d="M14.5297296,11 L9.46184488,11 L11.9758349,17.4645458 L14.5297296,11 Z M10.5679953,19.3624463 L6.53815512,9 L17.4702704,9 L13.3744964,19.3674279 L11.9759405,18.814912 L10.5679953,19.3624463 Z"
+                      fill="#000000"
+                      fill-rule="nonzero"
+                      opacity="0.3"
+                    />
+                    <path
+                      d="M10,22 L14,22 L14,22 C14,23.1045695 13.1045695,24 12,24 L12,24 C10.8954305,24 10,23.1045695 10,22 Z"
+                      fill="#000000"
+                      opacity="0.3"
+                    />
+                    <path
+                      d="M9,20 C8.44771525,20 8,19.5522847 8,19 C8,18.4477153 8.44771525,18 9,18 C8.44771525,18 8,17.5522847 8,17 C8,16.4477153 8.44771525,16 9,16 L15,16 C15.5522847,16 16,16.4477153 16,17 C16,17.5522847 15.5522847,18 15,18 C15.5522847,18 16,18.4477153 16,19 C16,19.5522847 15.5522847,20 15,20 C15.5522847,20 16,20.4477153 16,21 C16,21.5522847 15.5522847,22 15,22 L9,22 C8.44771525,22 8,21.5522847 8,21 C8,20.4477153 8.44771525,20 9,20 Z"
+                      fill="#000000"
+                    />
+                  </g>
+                </svg>
+                Alb
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="box-style">
+          <h4 class="mt-30 mb-10">Stil cutie</h4>
+          <ul>
+            <li>
+              <a href="css/settings/circle.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <rect x="0" y="0" width="24" height="24" />
+                    <path
+                      d="M12,21 C7.02943725,21 3,16.9705627 3,12 C3,7.02943725 7.02943725,3 12,3 C16.9705627,3 21,7.02943725 21,12 C21,16.9705627 16.9705627,21 12,21 Z M12,16 C14.209139,16 16,14.209139 16,12 C16,9.790861 14.209139,8 12,8 C9.790861,8 8,9.790861 8,12 C8,14.209139 9.790861,16 12,16 Z"
+                      fill="#000000"
+                    />
+                    <circle
+                      fill="#000000"
+                      opacity="0.3"
+                      cx="12"
+                      cy="12"
+                      r="1"
+                    />
+                  </g>
+                </svg>
+                Cerc</a
+              >
+            </li>
+            <li>
+              <a href="css/settings/hexagon.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <rect x="0" y="0" width="24" height="24" />
+                    <path
+                      d="M12.7442084,3.27882877 L19.2473374,6.9949025 C19.7146999,7.26196679 20.003129,7.75898194 20.003129,8.29726722 L20.003129,15.7027328 C20.003129,16.2410181 19.7146999,16.7380332 19.2473374,17.0050975 L12.7442084,20.7211712 C12.2830594,20.9846849 11.7169406,20.9846849 11.2557916,20.7211712 L4.75266256,17.0050975 C4.28530007,16.7380332 3.99687097,16.2410181 3.99687097,15.7027328 L3.99687097,8.29726722 C3.99687097,7.75898194 4.28530007,7.26196679 4.75266256,6.9949025 L11.2557916,3.27882877 C11.7169406,3.01531506 12.2830594,3.01531506 12.7442084,3.27882877 Z M12,14.5 C13.3807119,14.5 14.5,13.3807119 14.5,12 C14.5,10.6192881 13.3807119,9.5 12,9.5 C10.6192881,9.5 9.5,10.6192881 9.5,12 C9.5,13.3807119 10.6192881,14.5 12,14.5 Z"
+                      fill="#000000"
+                    />
+                  </g>
+                </svg>
+                Hexagon</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="box-title">
+          <h4 class="mt-30 mb-10">Titlu</h4>
+          <ul>
+            <li>
+              <a href="css/settings/title.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <rect x="0" y="0" width="24" height="24"></rect>
+                    <path
+                      d="M3,19 L5,19 L5,21 L3,21 L3,19 Z M8,19 L10,19 L10,21 L8,21 L8,19 Z M13,19 L15,19 L15,21 L13,21 L13,19 Z M18,19 L20,19 L20,21 L18,21 L18,19 Z"
+                      fill="#000000"
+                      opacity="0.3"
+                    ></path>
+                    <path
+                      d="M10.504,3.256 L12.466,3.256 L17.956,16 L15.364,16 L14.176,13.084 L8.65000004,13.084 L7.49800004,16 L4.96000004,16 L10.504,3.256 Z M13.384,11.14 L11.422,5.956 L9.42400004,11.14 L13.384,11.14 Z"
+                      fill="#000000"
+                    ></path>
+                  </g>
+                </svg>
+                Titlu</a
+              >
+            </li>
+            <li>
+              <a href="css/settings/no-title.css"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22px"
+                  height="22px"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      transform="translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) translate(4.000000, 4.000000)"
+                      fill="#000000"
+                    >
+                      <rect x="0" y="7" width="16" height="2" rx="1"></rect>
+                      <rect
+                        opacity="0.3"
+                        transform="translate(8.000000, 8.000000) rotate(-270.000000) translate(-8.000000, -8.000000) "
+                        x="0"
+                        y="7"
+                        width="16"
+                        height="2"
+                        rx="1"
+                      ></rect>
+                    </g>
+                  </g>
+                </svg>
+                Fara titlu</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="style-color">
+          <h4 class="mt-30 mb-10">Culoare Tema</h4>
+          <ul>
+            <li>
+              <a
+                href="css/settings/green-color.css"
+                style="background-color: #25ca7f"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="css/settings/blue-color.css"
+                style="background-color: #00a3e1"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="css/settings/red-color.css"
+                style="background-color: #d94c48"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="css/settings/purple-color.css"
+                style="background-color: #bb68c8"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="css/settings/sea-color.css"
+                style="background-color: #0dcdbd"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="css/settings/yellow-color.css"
+                style="background-color: #eae328"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <svg
+        width="300px"
+        height="200px"
+        viewBox="0 0 187.3 93.7"
+        preserveAspectRatio="xMidYMid meet"
+        style="
+          left: 50%;
+          top: 50%;
+          position: absolute;
+          transform: translate(-50%, -50%) matrix(1, 0, 0, 1, 0, 0);
+        "
+      >
+        <path
+          stroke="#ededed"
+          id="preloader"
+          fill="none"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z"
+        ></path>
+        <path
+          id="preloader-bg"
+          opacity="0.05"
+          fill="none"
+          stroke="#ededed"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="wrap">
+      <!-- Content Site -->
+      <div class="content">
+        <!-- Menu -->
+        <div class="menu page-active-1">
+          <div class="menu-item item-1 m-btn js-btn" data-page="1">
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M3.95709826,8.41510662 L11.47855,3.81866389 C11.7986624,3.62303967 12.2013376,3.62303967 12.52145,3.81866389 L20.0429,8.41510557 C20.6374094,8.77841684 21,9.42493654 21,10.1216692 L21,19.0000642 C21,20.1046337 20.1045695,21.0000642 19,21.0000642 L4.99998155,21.0000673 C3.89541205,21.0000673 2.99998155,20.1046368 2.99998155,19.0000673 L2.99999828,10.1216672 C2.99999935,9.42493561 3.36258984,8.77841732 3.95709826,8.41510662 Z M10,13 C9.44771525,13 9,13.4477153 9,14 L9,17 C9,17.5522847 9.44771525,18 10,18 L14,18 C14.5522847,18 15,17.5522847 15,17 L15,14 C15,13.4477153 14.5522847,13 14,13 L10,13 Z"
+                    fill="#000000"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </div>
+
+          <div class="menu-item item-2" data-page="2">
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                  <path
+                    d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z"
+                    fill="#000000"
+                    fill-rule="nonzero"
+                    opacity="0.5"
+                  ></path>
+                  <path
+                    d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z"
+                    fill="#000000"
+                    fill-rule="nonzero"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </div>
+
+          <div class="menu-item item-3" data-page="3">
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                    fill="#000000"
+                    opacity="0.3"
+                  ></path>
+                  <path
+                    d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                    fill="#000000"
+                  ></path>
+                  <rect
+                    fill="#000000"
+                    opacity="0.3"
+                    x="7"
+                    y="10"
+                    width="5"
+                    height="2"
+                    rx="1"
+                  ></rect>
+                  <rect
+                    fill="#000000"
+                    opacity="0.3"
+                    x="7"
+                    y="14"
+                    width="9"
+                    height="2"
+                    rx="1"
+                  ></rect>
+                </g>
+              </svg>
+            </span>
+          </div>
+
+          <div class="menu-item item-4" data-page="4">
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <rect
+                    fill="#000000"
+                    x="4"
+                    y="4"
+                    width="7"
+                    height="7"
+                    rx="1.5"
+                  ></rect>
+                  <path
+                    d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z"
+                    fill="#000000"
+                    opacity="0.3"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </div>
+
+          <div class="menu-item item-5" data-page="5">
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z"
+                    fill="#000000"
+                    opacity="0.3"
+                  ></path>
+                  <path
+                    d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z"
+                    fill="#000000"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Page -->
+        <div class="page page-1 active">
+          <div class="heading">
+            <h2>FINEX</h2>
+          </div>
+
+          <!-- Fullscreen Slider-->
+          <div class="slide-kenburns-bg">
+            <div class="slide-kenburns slide-kenburns-1"></div>
+            <div class="slide-kenburns slide-kenburns-2"></div>
+            <div class="slide-kenburns slide-kenburns-3"></div>
+            <div class="slide-kenburns slide-kenburns-4"></div>
+            <div class="slide-kenburns slide-kenburns-5"></div>
+            <div class="slide-kenburns slide-kenburns-6"></div>
+            <div class="slide-kenburns slide-kenburns-7"></div>
+            <div class="slide-kenburns slide-kenburns-8"></div>
+            <div class="slide-kenburns slide-kenburns-9"></div>
+            <div class="slide-kenburns slide-kenburns-10"></div>
+          </div>
+
+          <section>
+            <!-- Banner -->
+            <div class="banner">
+              <h1>FINEX</h1>
+              <p class="cd-headline">
+                <span
+                  >Este o firma de contabilitate cu sediul in Bucuresti, care
+                  furnizeaza servicii de contabilitate, consultanta financiara
+                  si fiscala, audit, expertize contabile si alte genuri de
+                  prestatii conexe.</span
+                >
+              </p>
+            </div>
+            <div class="banner-2">
+              <h2>Se adreseaza în principal:</h2>
+              <p class="cd-headline">
+                <span>
+                  <p>Întreprinderilor mici si mijlocii (IMM-uri),</p>
+                  <p>
+                    Organizatiilor non-guvernamentale (ONG-uri), sindicate
+                    partide si alte entități,
+                  </p>
+                  <p>Persoanelor fizice autorizate (PFA).</p>
+                </span>
+              </p>
+            </div>
+
+            <!-- Copy -->
+            <div class="copy">
+              <p>FINEX © 2020 Toate drepturile rezervate.</p>
+            </div>
+
+            <!-- Social -->
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="far fa-envelope"></i></a>
+                </li>
+              </ul>
+              <p>Urmărește</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="page page-2" data-simplebar>
+          <div class="heading">
+            <h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30px"
+                height="30px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                  <path
+                    d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z"
+                    fill="#000000"
+                    fill-rule="nonzero"
+                    opacity="0.5"
+                  ></path>
+                  <path
+                    d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z"
+                    fill="#000000"
+                    fill-rule="nonzero"
+                  ></path>
+                </g>
+              </svg>
+              Despre
+            </h2>
+          </div>
+
+          <div class="head">
+            <h2>FINNEX</h2>
+          </div>
+
+          <section class="container">
+            <div class="row">
+              <!-- Information Block -->
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="info mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q">Despre noi</h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-12 col-sm-12">
+                          <p>
+                            <b>FINEX</b> este o firma de prestatii contabile si
+                            servicii conexe, in care entuziasmul si dorinta de
+                            performanta a celor tineri se imbina armonios cu
+                            rigoarea si maturitatea profesionala a celor
+                            experimentati, formand un colectiv dedicat meseriei
+                            si orientat spre succesul clientilor.
+                          </p>
+                          <p>
+                            Profesionalismul si calitatea serviciilor oferite
+                            clientilor sunt principiile de baza pe care le
+                            urmarim in activitatea noastra.
+                          </p>
+                          <p>
+                            Indiferent de situatie, va putem oferi cea mai
+                            potrivita solutie la problemele aparute. Suntem
+                            conectati in permanenta la modificarile legislative,
+                            sesizand implicatiile si impactul acestora asupra
+                            societatii dumneavoastra.
+                          </p>
+                          <p>
+                            <b>FINEX</b> respecta cu strictete regulile
+                            deontologiei profesionale, garantand prin contract
+                            confidentialitatea informatiilor gestionate in
+                            relatia cu clientul, atat in timpul colaborarii cat
+                            si dupa incetarea acesteia.
+                          </p>
+                          <p>
+                            Activitatea <b>FINEX</b> este sustinuta de un soft
+                            de contabilitate si gestiune complex, avand
+                            integrate module de contabilitate, mijloace fixe,
+                            gestiune si salarizare. Clientii nostri sunt
+                            deserviti de un numar de 26 profesionisti contabili
+                            cu studii economice superioare.
+                          </p>
+                          <p>
+                            Prin <b>FINEX</b> dorim sa contribuim la optimizarea
+                            cheltuielilor fiscale si nonfiscale si la corecta
+                            dumneavoastra informare privitor la implicatiile
+                            acestora asupra afacerilor pe care le derulati
+                          </p>
+                          <p>
+                            Dorinta noastra este sa contribuim la prosperitatea
+                            si securitatea financiara a clientilor, prin gasirea
+                            unor solutii optime in domeniile precum
+                            financiar-contabilitate, resurse umane, salarizare
+                            si politici manageriale.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="info mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q">
+                      Certificari/acreditari la organism profesionale
+                    </h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-12 col-sm-12">
+                          <p>
+                            Societatea noastra este membra a
+                            <b>Corpului Expertilor Contabili si Contabililor</b
+                            >.
+                          </p>
+                          <p>
+                            <b>Autorizati din Romania</b> ( autorizatie
+                            nr.711/2000) si a
+                            <b>Camerei Auditorilor Financiari din Romania</b>
+                            (autorizatie nr. 897/2009) si isi desfasoara
+                            activitatea in conformitate cu Standardele
+                            profesionale nationale elaborate de CECCAR si CAFR
+                            precum si cu Standardele internationale emise de
+                            Federaţia Internaţională a Contabililor (IFAC) .
+                          </p>
+                          <p>
+                            Serviciile prestate de specialistii nostri sunt
+                            supuse auditului de calitate realizat de catre cele
+                            doua organisme profesionale, conferindu-va siguranta
+                            unor prestatii de calitate, competente si operative
+                            .
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-sm-12">
+                <div class="info mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q">Serviciile oferite de firma noastră</h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-3 col-sm-12">
+                          <ul>
+                            <li>
+                              •Servicii de contabilitate primara si financiara,
+                              inclusiv refacerea evidentei contabile;
+                            </li>
+                            <li>•Înfiintarea/lichidarea de societati;</li>
+                            <li>•Consultanta fiscala;</li>
+                            <li>•Expertize contabile;</li>
+                            <li>•Servicii de salarizare si resurse umane;</li>
+                            <li>•Analiza financiara;</li>
+                            <li>•Audit financiar.</li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-9 col-sm-12">
+                          <p>
+                            Din ce in ce mai multe societati si organizatii se
+                            orienteaza spre externalizarea acestor servicii
+                            catre o <b>firma de contabilitate</b>, pentru a
+                            dispune de in scopul organizarii propriei
+                            activitatii si pentru a reduce astfel costurile.
+                            Venim in intimpinarea acestor nevoi sprijinind
+                            eforturile dumneavoastra prin servicii profesionale
+                            de contabilitate la tarife conforme cu gradul de
+                            complexitate al activitatii si cu posibilitatile
+                            clientului.
+                          </p>
+                          <p>
+                            Urmarim respectarea cu strictete a regulilor
+                            deontologiei profesionale, garantand prin contract
+                            confidentialitatea informatiilor gestionate in
+                            relatia cu firma clientului, atat in timpul
+                            colaborarii cat si dupa incetarea acesteia.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="service mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q">
+                      Avantajele externalizarii serviciilor de contabilitate
+                    </h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>01</span>
+                            <p>
+                              Cunostintele acumulate la solutionarea problemelor
+                              contabile ale clientilor <b>FINEX</b> sunt acum la
+                              dispozitia dumneavoastra, pentru ca nu sunteti
+                              deservit de o singura persoana, ci de o intreaga
+                              echipa, cu experienta in contabilitate,
+                              consultanta fiscala si analiza financiara.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>02</span>
+                            <p>
+                              Veti fi asistat si reprezentat cu ocazia oricarui
+                              control fiscal, iar experienta noastra va va feri
+                              de eventualele abuzuri.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>03</span>
+                            <p>
+                              <b>FINEX</b> este la curent cu ultimile modificari
+                              legislative in domeniu, avand posibilitatea de a
+                              avea o evidenta contabila si fiscala mereu in
+                              concordanta cu cele mai recente acte normative si
+                              cerinte de pe piata europeana. Noutatile
+                              legislative pe probleme specifice de contabilitate
+                              si fiscalitate cu impact asupra societatii
+                              dumneavoastra va vor fi aduse la cunostiinta in
+                              cel mai scurt timp; FINEX cunoaste posibilitatile
+                              de optimizare si minimizare a taxelor si
+                              impozitelor datorate.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>04</span>
+                            <p>
+                              Firma noastra de contabilitate reprezentata prin
+                              persoanele ei angajate este raspunzatoare in fata
+                              legii, clientii find acoperiti de raspunderea
+                              contractuala.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>05</span>
+                            <p>
+                              Tarifele serviciilor FINEX sunt mai mici decat
+                              costurile cu propriul departament de
+                              contabilitate. Platile efectuate catre o firma de
+                              servicii contabile pot fi decontate, evitand
+                              astfel costurile suplimentare presupuse in cazul
+                              unui contract de munca. Factura emisa de FINEX
+                              este deductibila in totalitate.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                          <div class="service-item">
+                            <span>06</span>
+                            <p>
+                              Puteti lua decizii corecte pe baza rapoartelor
+                              FINEX puse la dispozitie aproape in timp real.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page page-3" data-simplebar>
+          <div class="heading">
+            <h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30px"
+                height="30px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <path
+                    d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                    fill="#000000"
+                    opacity="0.3"
+                  ></path>
+                  <path
+                    d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                    fill="#000000"
+                  ></path>
+                  <rect
+                    fill="#000000"
+                    opacity="0.3"
+                    x="7"
+                    y="10"
+                    width="5"
+                    height="2"
+                    rx="1"
+                  ></rect>
+                  <rect
+                    fill="#000000"
+                    opacity="0.3"
+                    x="7"
+                    y="14"
+                    width="9"
+                    height="2"
+                    rx="1"
+                  ></rect>
+                </g>
+              </svg>
+              Tarife
+            </h2>
+          </div>
+
+          <section class="container">
+            <div class="row">
+              <div class="col-lg-12 col-sm-12">
+                <div class="info mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q" style="text-align: center">
+                      Tarifele serviciilor de contabilitate au un caracter
+                      orientativ. Pretul final va fi stabilit dupa o intalnire
+                      si o negociere a conditiilor cu dumneavoastra.
+                    </h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-12 col-sm-12">
+                          <p style="border-bottom: 1px solid grey">
+                            Exemplu de calcul a tarifelor pentru servicii de
+                            contabilitate:
+                          </p>
+                          <ul>
+                            <li>
+                              •Societati fara activitate - tarif servicii
+                              contabilitate 100 lei / luna;
+                            </li>
+                            <li>
+                              •Societati cu activitate de complexitate mica -
+                              tarife contabilitate 200-400 lei / luna;
+                            </li>
+                            <li>
+                              •Societati cu activitate de complexitate medie -
+                              tarife contabilitate 400-800 lei / luna;
+                            </li>
+                            <li>
+                              •Societati cu activitate de complexitate mare -
+                              tarife contabilitate 1.500-2.500 lei / luna;
+                            </li>
+                            <li>
+                              •Societati cu activitate de complexitate foarte
+                              mare- tarife contabilitate 2.500-3.000 lei / luna.
+                            </li>
+                          </ul>
+
+                          <p style="border-bottom: 1px solid grey">
+                            Numar maxim de tranzactii inregistrate in
+                            contabilitate/ luna :
+                          </p>
+                          <ul>
+                            <li>
+                              •Complexitate mica: 15-25 facturi la intrare,
+                              25-50 facturi la iesire, pana la 5 angajati, fara
+                              importuri si activitate de productie.
+                            </li>
+                            <li>
+                              •Complexitate medie : 25-50 facturi la intrare,
+                              50-100 facturi la iesire, 6-25 angajati, fara
+                              importuri si activitate de productie.
+                            </li>
+                            <li>
+                              •Complexitate mare : 50-100 facturi la intrare,
+                              100-150 facturi la iesire, 26-50 angajati, cu
+                              importuri si/sau activitate de productie.
+                            </li>
+                            <li>
+                              •Complexitate foarte mare : peste 100 facturi la
+                              intrare, peste 150 facturi la iesire, peste 50 de
+                              angajati, cu importuri si activitate de productie.
+                            </li>
+                          </ul>
+
+                          <p style="border-bottom: 1px solid grey">
+                            Tarife pentru alte categorii de servicii :
+                          </p>
+                          <ul>
+                            <li>
+                              •Analiza financiara intre 400-1.000 lei/serviciu.
+                            </li>
+                            <li>
+                              •Certificare fiscala situatii financiare intre
+                              400-600 lei/serviciu.
+                            </li>
+                            <li>
+                              •Consultanta fiscala intre 200- 500 lei/luna.
+                            </li>
+                            <li>
+                              •Audit statutar si expertize contabile amiabile
+                              intre 40-100 lei/ora ( in functie de
+                              complexitate).
+                            </li>
+                            <li>•Cenzorat intre 150-500 lei/luna.</li>
+                            <li>
+                              •Infiintare/lichidare societati la cerere
+                              1.000-3.000 lei/serviciu.
+                            </li>
+                          </ul>
+
+                          <h4 style="padding-bottom: 2%">
+                            <b>
+                              Onorariu fix pentru intocmire si depunere
+                              declaratii societati fara activitate – 1.200
+                              lei/an
+                            </b>
+                          </h4>
+                          <h4><b>Tarifele nu includ TVA</b></h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page page-4" data-simplebar>
+          <div class="heading">
+            <h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30px"
+                height="30px"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <rect x="0" y="0" width="24" height="24"></rect>
+                  <rect
+                    fill="#000000"
+                    x="4"
+                    y="4"
+                    width="7"
+                    height="7"
+                    rx="1.5"
+                  ></rect>
+                  <path
+                    d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z"
+                    fill="#000000"
+                    opacity="0.3"
+                  ></path>
+                </g>
+              </svg>
+              Servicii
+            </h2>
+          </div>
+
+          <section class="container">
+            <div class="row">
+              <div class="col-lg-12 col-sm-12">
+                <div class="service mt-70">
+                  <div class="ac">
+                    <h2 class="ac-q">
+                      Avantajele externalizarii serviciilor de contabilitate
+                    </h2>
+                    <div class="ac-a">
+                      <div class="row p-20">
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Analiza financiara</span
+                            >
+                            <p>
+                              O mare importanta in dezvoltarea agentilor
+                              economici o are analiza financiara. Aceasta
+                              presupune analiza fluxurilor de trezorerie, a
+                              planurilor de afaceri si a bilantului contabil.
+                              Consultanta financiara cuprinde elaborarea de
+                              tablouri de finantare si planuri de trezorerie.
+                            </p>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Instrumente ale analizei financiare:
+                            </p>
+                            <ul>
+                              <li>•Bilantul contabil;</li>
+                              <li>•Contul de profit si pierdere;</li>
+                              <li>•Soldurile intermediare de gestiune;</li>
+                              <li>•Tabloul fluxurilor de trezorerie.</li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Indicatori folositi de analiza financiara:
+                            </p>
+                            <ul>
+                              <li>•Lichiditatea si solvabilitatea;</li>
+                              <li>•Gradul de indatorare;</li>
+                              <li>
+                                •Viteza de rotatie a activelor circulante;
+                              </li>
+                              <li>
+                                •Indicatorii de performanta ai contului de
+                                profit si pierdere;
+                              </li>
+                              <li>•Indicatorii de rentabilitate;</li>
+                              <li>•Indicatorii de risc financiar.</li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Elemente de analiza financiara:
+                            </p>
+                            <ul>
+                              <li>•Analiza structurilor financiare;</li>
+                              <li>
+                                •Analiza fluxurilor financiare, a
+                                cash-flow-ului;
+                              </li>
+                              <li>•Analiza creantelor si a datoriilor;</li>
+                              <li>
+                                •Analiza capitalurilor si a imobilizãrilor;
+                              </li>
+                              <li>
+                                •Întocmirea bugetului de venituri si cheltuieli;
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Audit financiar</span
+                            >
+                            <p style="border-bottom: 1px solid grey">
+                              Domeniile de audit:
+                            </p>
+                            <ul>
+                              <li>•Audit al situatiilor financiare;</li>
+                              <li>•Audit intern;</li>
+                              <li>•Auditul operatiunilor financiare;</li>
+                              <li>•Auditul conturilor consolidate.</li>
+                            </ul>
+                            <p>
+                              Auditul financiar este o examinare profesionala
+                              independenta a situatiilor financiare anuale ale
+                              unei entitati in scopul formularii unei opinii de
+                              audit.
+                            </p>
+                            <p style="border-bottom: 1px solid grey">
+                              Audit financiar:
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                •Audit contractual sau statutar (conform
+                                Standardelor Internationale de Audit -IAS);
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Retratarea situatiilor financiare conform
+                                Standardelor Internationale de Audit -IAS si
+                                Standardelor Internationale de Raportare
+                                Financiara-IFRS;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Revizuirea situatiilor financiare ;
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Consultanta fiscala</span
+                            >
+                            <p style="border-bottom: 1px solid grey">
+                              Consultanta fiscala acopera toate aspectele
+                              importante pentru o buna desfasurare a activitatii
+                              unui agent economic. Dintre cele mai importante,
+                              enumeram urmatoarele:
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                •Identificarea tuturor taxelor si contributiilor
+                                aplicabile firmei dvs.;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Asistenta la intocmirea contestatiilor de orice
+                                fel (impotriva proceselor verbale de control,
+                                etc.);
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Analiza impozitelor, consultanta in probleme de
+                                TVA, impozit pe profit sau venit, impozite
+                                directe si indirecte, impozite pe salarii,
+                                asigurari sociale etc;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Solutii fiscale, in limitele prevederilor
+                                legale, de maximizare a investitiilor si de
+                                reducere a obligatiilor fiscale;
+                              </li>
+                              <li>•Planificare in domeniul taxelor.</li>
+                            </ul>
+                            <p>
+                              Asiguram consultanta fiscala necesara pentru
+                              eficientizarea fiscalitatii, punandu-va la curent
+                              cu toate solutiile pe care legea le permite pentru
+                              diminuarea impozitelor si taxelor.
+                            </p>
+                            <p style="border-bottom: 1px solid grey">
+                              Oferim consultanta fiscala pentru urmatoarele
+                              categorii de impozite :
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                •Impozitul pe profit (reguli generale, cote de
+                                impozitare, calculul profitului impozabil, plata
+                                impozitului, termen de plata, intocmire si
+                                depunere declaratie de impozit pe profit);
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Impozitul pe venit: sfera de cuprindere,
+                                categorii de venituri supuse impozitului pe
+                                venit, impozitul pe dividende (cote, termen de
+                                plata, declarare), definirea veniturilor din
+                                salarii, determinarea lunara a impozitului pe
+                                venitul din salarii, termen de plata a
+                                impozitului, regularizarea anuala a impozitului
+                                pe venit,fise fiscale, declaratia de venit
+                                global si declaratii speciale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Impozitul pe veniturile obtinute in Romania de
+                                nerezidenti: sfera de cuprindere, venituri
+                                impozabile obtinute in Romania, retinerea
+                                impozitului datorat de nerezidenti, scutiri,
+                                declaratii
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Impozite si taxe locale: reguli generale,
+                                calculul impozitelor, termene de plata,
+                                declaratii pentru impozitul pe cladiri si teren,
+                                taxa asupra mijloacelor de transport, alte
+                                impozite si taxe locale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                •Taxa pe valoarea adaugata: sfera de aplicare,
+                                persoane impozabile, operatiuni impozabile,
+                                faptul generator, exigibilitate,
+                                teritorialitate, baze de impozitare si cote de
+                                impozitare, determinare, regularizare si
+                                rambursare, facturi fiscale, termen de plata,
+                                intocmirea si depunerea decontului de TVA.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Servicii contabilitate</span
+                            >
+                            <p>
+                              Firma noastra de contabilitate reprezentata prin
+                              persoanele ei angajate este raspunzatoare in fata
+                              legii, clientii find acoperiti de raspunderea
+                              contractuala.
+                            </p>
+                            <p style="border-bottom: 1px solid grey">
+                              Contabilitatea primara :
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • contabilitatea extraselor de cont si a
+                                registrului de casa;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • contabilitatea notelor de intrare-receptie
+                                (NIR-uri) si a bonurilor de consum;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • intocmirea deconturilor de cheltuieli;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • intocmirea facturilor care trebuie emise catre
+                                client (facturare);
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • intocmirea de dispozitii de plata/incasare
+                                catre casierie;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • completarea de chitante, cecuri, ordine de
+                                plata, foi de varsamant;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • intocmirea de state de plata, liste de avans,
+                                pontaje;
+                              </li>
+                            </ul>
+                            <p>
+                              Serviciul de contabilitate primara poate presupune
+                              delegarea unuia dintre salariatii nostri la sediul
+                              dumneavoastra, caz in care se tarifeaza
+                              suplimentar.
+                            </p>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Contabilitatea de gestiune :
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Evidenta global-valorica, cantitativ-valorica
+                                (dupa caz) si intocmirea balantei analitice a
+                                stocurilor;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Evidenta mijloace fixe, calculul amortizarii;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Evidenta analitica si sintetica a clientilor,
+                                debitorilor, furnizorilor si creditorilor;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Elaborarea balantei de verificare si a
+                                balantelor analitice;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea jurnalelor contabile prevazute de
+                                lege: Registrul Jurnal, Registrul Inventar,
+                                Registrul Cartea Mare;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea jurnalelor de vanzari si cumparari
+                                pentru evidenta TVA colectat si deductibil.
+                              </li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Contabilitatea financiara :
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Calculul impozitului pe profit, intocmirea si
+                                depunerea declaratiilor in termenele legale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul impozitului pe dividende, intocmirea
+                                si depunerea declaratiilor privind impozitul pe
+                                dividende;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul impozitului pe veniturile persoanelor
+                                fizice si juridice nerezidente;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul TVA datorat/de recuperat precum si
+                                intocmirea si depunerea decontului de TVA in
+                                termenele legale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Consolidarea balantelor de verificare pentru
+                                grupuri de societãti si transpunerea lor în
+                                bilant;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea altor situatii sau rapoarte cerute
+                                de legislatia in vigoare;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea de raportari contabile externe,
+                                daca specificul activitatii o impune catre
+                                parteneri, furnizori sau clienti externi;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Lucrari specifice pentru participarea la
+                                licitatii publice de oferte;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Informari periodice privind schimbarile
+                                legislatiei fiscale referitoare la activitatea
+                                beneficiarului;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Informarea periodica a conducerii asupra
+                                situatiei economico-financiare a societatii;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Informarea permanenta si in timp util a
+                                conducerii societatii privind reglementarile din
+                                domeniul fiscal si financiar-contabil;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea de dosare pentru obtinerea de
+                                credite bancare precum si dosare pentru
+                                achizitionarea de bunuri in leasing;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Asistenta cu ocazia verificarii contabilitatii
+                                de catre organele abilitate prin lege a efectua
+                                controale financiare si fiscale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Efectuarea de punctaje cu administratia
+                                financiara asupra obligatiilor fiscale ale
+                                agentului economic.
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Obtinerea de certificate fiscale, certificate
+                                constatatoare, etc;
+                              </li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Refacere contabilitate :
+                            </p>
+                            <p>
+                              Dupa efectuarea unei analize detaliate societatea
+                              noastra isi asuma raspunderea pentru refacerea
+                              contabilitatii si aducerea la zi a situatiei
+                              contabile. Aceasta presupune urmatoarele categorii
+                              de operatiuni:
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • reintocmirea si depunerea raportarilor privind
+                                obligatiile salariale (intocmirea si depunerea
+                                la organele competente a declaratiilor
+                                rectificative pentru salariati: CAS, somaj,
+                                sanatate si ITM);
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • reintocmirea si depunerea declaratiei
+                                rectificative la administratiile financiare a
+                                decontului privind TVA;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • reintocmirea si depunerea declaratiei
+                                rectificative la administratiile financiare a
+                                declaratiei privind obligatiile de plata la
+                                bugetul de stat;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • reintocmirea si depunerea declaratiei
+                                rectificative la administratiile financiare a
+                                declaratiei privind impozitul pe profit;;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • efectuarea inregistrarilor contabile pentru
+                                perioadele restante precum si identificarea si
+                                corectarea erorilor constatate;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • refacerea si relistarea balantelor de
+                                verificare lunare pentru lunile restante.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Expertize Contabile</span
+                            >
+                            <p style="border-bottom: 1px solid grey">
+                              Serviciile noastre de expertiza contabila si
+                              certificare a situatiilor financiare cuprind:
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Expertiza contabila amiabila;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Expertiza contabila judiciara;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea situatiilor financiare anuale sau a
+                                situatiilor financiare anuale simplificate;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Verificarea si certificarea situatiilor
+                                financiare semestriale si anuale ;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Evaluarea patrimoniului societatii;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Activitate de cenzorat;
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Resurse umane si salarizare</span
+                            >
+                            <p style="border-bottom: 1px solid grey">
+                              Resurse umane
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea contractelor individuale de munca ;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si completarea registrului general
+                                de evidenta a salariatilor (REVISAL) ;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea adeverintelor de salariu;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea notelor de lichidare pentru
+                                personalul agentului economic;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea, depunerea si urmarirea dosarelor
+                                de personal;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Achizitia, completarea si depunerea cartilor
+                                de munca la ITM ;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Completarea actelor aditionale la contractele
+                                individuale de munca cu modificare salariilor, a
+                                functie, a normei de lucru, duratei de munca si
+                                in alte situatii;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea documentelor pentru obtinerea
+                                repartitiilor de la AJOFM;
+                              </li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Salarizare
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea listelor de avans chenzinale si a
+                                statelor de plata;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Depunerea documentatiei in vederea intocmirii
+                                dosarelor de pensionare;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Depunerea declaratiilor rectificative;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul concediilor medicale si evidenta
+                                acestora;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul si evidenta concediilor de
+                                maternitate;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul si evidenta concediilor de odihna;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea fisierelor electronice pentru banci
+                                - plata pe card a drepturilor salariale;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea ordinelor de plata a salariilor pe
+                                card;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul si retinerea impozitelor pe
+                                veniturile din salarii;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Calculul si retinerea contributiilor de
+                                asigurari sociale de stat, asigurari sociale de
+                                sanatate, contributiei pentru accidente de munca
+                                si boli profesionale, comisionului pentru carti
+                                de munca, asigurari pentru somaj, contributiei
+                                la fondul de garantare a salariilor, etc.
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Consultanta privind salarizarea.
+                              </li>
+                            </ul>
+
+                            <p style="border-bottom: 1px solid grey">
+                              Intocmire si depunere declaratii
+                            </p>
+                            <ul>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea dosarelor de personal;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si depunerea statelor de plata a
+                                salariilor la ITM;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea pontajelor;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si depunerea declaratiilor de
+                                sanatate;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si depunerea declaratiilor de CAS;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si depunerea declaratiilor de
+                                somaj;
+                              </li>
+                              <li style="padding-bottom: 15px">
+                                • Intocmirea si depunerea declaratiilor pentru
+                                comisionul ITM.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="service-item">
+                            <span
+                              style="
+                                font-size: 50px;
+                                display: inline-block;
+                                background: -webkit-linear-gradient(#fff, #777);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                              "
+                              >Infiintare/lichidare/dizolvarea de societati
+                              comerciale:</span
+                            >
+                            <p style="border-bottom: 1px solid grey"></p>
+                            <ul>
+                              <li>
+                                • asistenta la infiintarea/lichidarea/dizolvarea
+                                agentului economic, prin acordarea de
+                                consultanta in vederea alegerii unei solutii
+                                optime din punct de vedere fiscal si contabil;
+                              </li>
+                              <li>
+                                • intocmirea/depunerea documentatiei pentru
+                                infiintarea/lichidarea societatii la ONRC;
+                              </li>
+                              <li>
+                                • programarea pentru semnarea actelor la ONRC;
+                              </li>
+                              <li>
+                                • consultanta ulterioara infiintarii, cu privire
+                                la procedurile de inregistrare fiscala a
+                                societatii comerciale la organul fiscal
+                                teritorial;
+                              </li>
+                              <li>
+                                • efectuarea de modificari la ONRC, legate de
+                                actele societatii.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page page-5" data-simplebar>
+          <div class="heading">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="map-block">
+            <div
+              id="map"
+              class="map"
+              data-map-back="http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+              data-latlog="[44.389319, 26.126578]"
+              data-popuptext="Strada Voila 10, Bucuresti, 077160"
+              data-popupicon="img/marker.png"
+            ></div>
+          </div>
+
+          <section class="container">
+            <!-- Form Start -->
+            <div class="form-block mt-100 mb-100">
+              <div class="ac">
+                <h2 class="ac-q">Trimite-ne un mesaj!</h2>
+                <div class="ac-a">
+                  <div class="row p-20 pb-40">
+                    <div class="col-lg-12 col-sm-12">
+                      <div class="contact-form">
+                        <form
+                          method="post"
+                          class="contact-valid"
+                          id="contact-form"
+                        >
+                          <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                              <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                class="form-control"
+                                placeholder="Nume *"
+                              />
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                class="form-control"
+                                placeholder="Email *"
+                              />
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                              <textarea
+                                class="form-control"
+                                name="note"
+                                id="note"
+                                placeholder="Mesajul tau"
+                              ></textarea>
+                            </div>
+                            <div class="col-lg-12 col-sm-12 text-center">
+                              <button type="submit" class="btn-st">
+                                <span class="top"><b>Trimite mesaj</b></span>
+                                <span class="bottom"><b>Trimite mesaj</b></span>
+                              </button>
+                              <div id="loader">
+                                <i class="fas fa-sync"></i>
+                              </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-12">
+                              <div class="error-messages">
+                                <div id="success">
+                                  <i class="far fa-check-circle"></i>Multumim,
+                                  mesajul tau a fost trimis.
+                                </div>
+                                <div id="error">
+                                  <i class="far fa-times-circle"></i>S-a produs
+                                  o eroare la trimiterea mesajului. Te rugam
+                                  încearcă mai târziu.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-block mb-100">
+              <div class="ac">
+                <h2 class="ac-q">Informatii de contact</h2>
+
+                <div class="ac-a">
+                  <div class="row p-20 contact-info">
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-paper-plane"></i>
+                      <p>office@fnx.ro</p>
+                      <span>Email</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-globe"></i>
+                      <p>www.fnx.ro</p>
+                      <span>Adresa Web</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-map-marked-alt"></i>
+                      <p>
+                        Str.Voila nr.10, bloc 21 , sc.2, apt.16, sector 4,
+                        Bucuresti
+                      </p>
+                      <span>Adresa</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-phone"></i>
+                      <p>021.332.60.21</p>
+                      <span>Telefon</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-fax"></i>
+                      <p>021.332.60.21</p>
+                      <span>Fax</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 info">
+                      <i class="fas fa-user-tie"></i>
+                      <p>Tomoaica Emil</p>
+                      <span>Administrator</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ajax Portfolio -->
+    <div class="ajax-portfolio">
+      <span class="ajax-loader"></span>
+      <div class="content-wrap">
+        <span class="popup-close"><i class="far fa-times-circle"></i></span>
+        <div class="popup-content"></div>
+      </div>
+    </div>
+
+    <!-- All Script -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/isotope.pkgd.min.js"></script>
+    <script src="js/plugins/accordion.js"></script>
+    <script src="js/plugins/simplebar.js"></script>
+    <script src="js/plugins/swiper.min.js"></script>
+    <script src="js/plugins/map.min.js"></script>
+    <script src="js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins/jquery.animatedheadline.min.js"></script>
+    <script src="js/plugins/jquery.validation.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="setting/main-demo.js"></script>
+  </body>
+</html>
